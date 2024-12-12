@@ -26,18 +26,18 @@ Follow these steps to set up the project:
 
 2. **Install dependencies**:
    Ensure you have Python 3.8+ and pip installed, then run:
-
+```
 bash
 pip install -r requirements.txt
-
+```
 3. **Dataset downloading**:
     Place the dataset in the data/ directory. Ensure the dataset is named appropriately or update the notebook paths accordingly.
 
 Run the notebook: Start Jupyter Notebook or JupyterLab:
-
+```
 bash
 jupyter notebook Credit\ Risk\ Analysis.ipynb
-
+```
 ## 📂 Methodology
 
 ### 1. Data Import and Exploration
@@ -105,4 +105,3 @@ jupyter notebook Credit\ Risk\ Analysis.ipynb
 
 ### Risk Management
 - Implementing a dynamic risk scoring system based on the derived model can enhance loan approval processes.
-```
